@@ -32,13 +32,16 @@
             <distributionManagement>
                 <repository>
                     <id>packagecloud.release</id>
-                    <url>packagecloud+https://packagecloud.io/springframeworkguru/release</url>
+                    <url>packagecloud+https://packagecloud.io/guvenbe/release</url>
                 </repository>
                 <snapshotRepository>
                     <id>packagecloud.snapshot</id>
-                    <url>packagecloud+https://packagecloud.io/springframeworkguru/snapshot</url>
+                    <url>packagecloud+https://packagecloud.io/guvenbe/snapshot</url>
                 </snapshotRepository>
             </distributionManagement>
+<!--            <activation>-->
+<!--                <activeByDefault>true</activeByDefault>-->
+<!--            </activation>-->
         </profile>
         <profile>
             <id>nexus_distro</id>
